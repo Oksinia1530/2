@@ -4,9 +4,9 @@ Console.Clear();
 Console.WriteLine("Enter number N");
 int N = int.Parse(Console.ReadLine()!);
 int result = 0;
-for (int i = 1; i <= N; i++)
+for (int i = 0; i <= N; i++)
 {
-result*=i*i;
+result*=i;
 
 }
-Console.WriteLine(result);
+Console.WriteLine($"{result}");
